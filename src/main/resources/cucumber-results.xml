@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="43.953373">
+<testcase classname="Facebook smoke test" name="verify the facebook credentials with valid input" time="24.762498">
+<system-out><![CDATA[Given open firefox and enter the url........................................passed
+When The user enter valid credentials.......................................passed
+Then verify and take screen shot of the application.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Facebook smoke test" name="verify the facebook credentials with valid input" time="19.190875">
+<system-out><![CDATA[Given open firefox and enter the url........................................passed
+When The user enter invalid credentials.....................................passed
+Then verify and take screen shot of the application.........................passed
+]]></system-out>
+</testcase>
+</testsuite>

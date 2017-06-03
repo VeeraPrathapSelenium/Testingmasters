@@ -1,0 +1,77 @@
+[
+  {
+    "source": "open firefox and enter the url",
+    "steps": [
+      {
+        "name": "open firefox and enter the url",
+        "aggregatedDurations": {
+          "average": 8.817618361,
+          "median": 8.817618361
+        },
+        "durations": [
+          {
+            "duration": 9.915717615,
+            "location": "Mynew.project.feature:5"
+          },
+          {
+            "duration": 7.719519108,
+            "location": "Mynew.project.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "verify and take screen shot of the application",
+    "steps": [
+      {
+        "name": "verify and take screen shot of the application",
+        "aggregatedDurations": {
+          "average": 9.965451996,
+          "median": 9.965451996
+        },
+        "durations": [
+          {
+            "duration": 9.364868263,
+            "location": "Mynew.project.feature:7"
+          },
+          {
+            "duration": 10.566035729,
+            "location": "Mynew.project.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^The user enter ([a-zA-Z]{1,}) credentials$",
+    "steps": [
+      {
+        "name": "The user enter valid credentials",
+        "aggregatedDurations": {
+          "average": 16.219663993,
+          "median": 16.219663993
+        },
+        "durations": [
+          {
+            "duration": 16.219663993,
+            "location": "Mynew.project.feature:6"
+          }
+        ]
+      },
+      {
+        "name": "The user enter invalid credentials",
+        "aggregatedDurations": {
+          "average": 9.335027449,
+          "median": 9.335027449
+        },
+        "durations": [
+          {
+            "duration": 9.335027449,
+            "location": "Mynew.project.feature:12"
+          }
+        ]
+      }
+    ]
+  }
+]
